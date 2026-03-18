@@ -1,0 +1,164 @@
+[
+  {
+    "question": "Tell me about yourself.",
+    "difficulty": "Easy",
+    "topic": "Behavioral",
+    "sample_answer": "I'm a passionate software developer with 3 years of experience in web development. I specialize in Python and JavaScript, and I've worked on several projects involving e-commerce platforms and data visualization tools. I'm particularly interested in machine learning and enjoy solving complex problems through code."
+  },
+  {
+    "question": "What is your greatest strength?",
+    "difficulty": "Easy",
+    "topic": "Behavioral",
+    "sample_answer": "My greatest strength is my ability to quickly learn and adapt to new technologies. For example, when my team needed to implement a new microservices architecture, I took the initiative to learn Docker and Kubernetes within two weeks and successfully helped deploy our first containerized application."
+  },
+  {
+    "question": "Describe a challenging situation you faced at work and how you handled it.",
+    "difficulty": "Medium",
+    "topic": "Behavioral",
+    "sample_answer": "In my previous role, we faced a critical production issue where our main application was experiencing frequent crashes. I led the troubleshooting effort, implemented comprehensive logging, and identified a memory leak in our caching system. I coordinated with the team to deploy a patch within 24 hours, minimizing downtime and preventing revenue loss."
+  },
+  {
+    "question": "Explain the difference between SQL and NoSQL databases.",
+    "difficulty": "Medium",
+    "topic": "Technical",
+    "sample_answer": "SQL databases are relational, use structured query language, and have predefined schemas. They're ideal for complex queries and transactions. NoSQL databases are non-relational, can handle unstructured data, and offer more flexibility in schema design. They're better for horizontal scaling and handling large volumes of varied data types."
+  },
+  {
+    "question": "How would you design a URL shortening service like bit.ly?",
+    "difficulty": "Hard",
+    "topic": "System Design",
+    "sample_answer": "I would design it with a distributed architecture: 1) A load balancer to distribute traffic, 2) Multiple web servers for handling requests, 3) A distributed cache like Redis for frequently accessed URLs, 4) A database for storing URL mappings, 5) A hash function to generate short codes, and 6) CDN for global performance. I'd also implement analytics tracking and rate limiting to prevent abuse."
+  },
+  {
+    "question": "What is the time complexity of binary search and why?",
+    "difficulty": "Medium",
+    "topic": "Problem Solving",
+    "sample_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. For an array of size n, it takes at most log₂(n) comparisons to find the target element or determine it's not present. This makes it very efficient for large, sorted datasets compared to linear search's O(n) complexity."
+  },
+  {
+    "question": "How do you handle conflicts with team members?",
+    "difficulty": "Easy",
+    "topic": "Behavioral",
+    "sample_answer": "I believe in addressing conflicts directly and professionally. I start by listening to understand the other person's perspective, then clearly express my own concerns while focusing on the project goals rather than personal differences. I try to find common ground and work towards a mutually beneficial solution. If needed, I'm not afraid to involve a manager to mediate."
+  },
+  {
+    "question": "Explain the concept of RESTful APIs.",
+    "difficulty": "Medium",
+    "topic": "Technical",
+    "sample_answer": "RESTful APIs are architectural style for designing networked applications. They use HTTP methods like GET, POST, PUT, DELETE for CRUD operations, are stateless, use standard HTTP status codes, and can return data in formats like JSON. Key principles include client-server separation, uniform interface, and cacheability. They're widely used for web services due to their simplicity and scalability."
+  },
+  {
+    "question": "Design a notification system for a social media app.",
+    "difficulty": "Hard",
+    "topic": "System Design",
+    "sample_answer": "I'd design a microservices-based notification system with: 1) Notification service to process and queue notifications, 2) Push notification gateway for mobile devices, 3) Email service for email notifications, 4) WebSocket service for real-time web notifications, 5) User preferences service for notification settings, 6) Message queue like Kafka for handling high throughput, and 7) Database for notification history. I'd implement rate limiting and batching to prevent spam."
+  },
+  {
+    "question": "Why do you want to work for our company?",
+    "difficulty": "Easy",
+    "topic": "General",
+    "sample_answer": "I'm particularly drawn to your company because of your innovative approach to [specific product/service] and your commitment to [company value]. I've been following your work in [industry] and I'm impressed by how you've [specific achievement]. My skills in [relevant skills] align well with your requirements, and I believe I can contribute to your team while growing professionally in an environment that values [company culture aspect]."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous programming?",
+    "difficulty": "Medium",
+    "topic": "Technical",
+    "sample_answer": "Synchronous programming executes tasks sequentially, blocking execution until each task completes. Asynchronous programming allows tasks to run concurrently without blocking, using callbacks, promises, or async/await patterns. Async is better for I/O operations and maintaining responsive UIs, while sync is simpler for CPU-bound tasks. Async improves performance and scalability but adds complexity in error handling and debugging."
+  },
+  {
+    "question": "How would you optimize a slow database query?",
+    "difficulty": "Hard",
+    "topic": "Technical",
+    "sample_answer": "I'd approach optimization systematically: 1) Analyze the query execution plan to identify bottlenecks, 2) Add appropriate indexes on frequently queried columns, 3) Rewrite the query to avoid expensive operations like subqueries, 4) Use query caching for frequently run queries, 5) Consider database partitioning for large tables, 6) Optimize the database configuration, and 7) If needed, denormalize data or implement caching layers like Redis."
+  },
+  {
+    "question": "Describe your experience with agile methodologies.",
+    "difficulty": "Medium",
+    "topic": "General",
+    "sample_answer": "I've worked in agile environments for the past 3 years, participating in daily standups, sprint planning, and retrospectives. I'm experienced with Scrum and Kanban methodologies, using tools like Jira for task management. I appreciate how agile promotes continuous improvement and customer feedback. I've contributed to reducing our sprint cycle time by 20% through better story estimation and identifying process bottlenecks."
+  },
+  {
+    "question": "What is microservices architecture and when would you use it?",
+    "difficulty": "Hard",
+    "topic": "System Design",
+    "sample_answer": "Microservices architecture breaks down applications into small, independent services that communicate via APIs. Each service handles a specific business function and can be developed, deployed, and scaled independently. I'd use it for complex applications requiring rapid development cycles, independent scaling of components, or when different teams need to work on different parts of the system. However, it adds complexity in service discovery, data consistency, and monitoring compared to monolithic architecture."
+  },
+  {
+    "question": "How do you stay updated with the latest technology trends?",
+    "difficulty": "Easy",
+    "topic": "General",
+    "sample_answer": "I stay updated through multiple channels: I follow tech blogs and newsletters like TechCrunch and Hacker News, participate in online communities like Stack Overflow and GitHub, attend webinars and tech conferences, take online courses on platforms like Coursera, and contribute to open-source projects. I also dedicate time each week to experiment with new technologies and work on personal projects to apply what I learn."
+  },
+  {
+    "question": "What is object-oriented programming and why is it important?",
+    "difficulty": "Medium",
+    "topic": "Technical",
+    "sample_answer": "Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects' that contain data and code. It's important because it promotes code reusability, modularity, and maintainability through principles like encapsulation, inheritance, and polymorphism. OOP makes complex software easier to manage by organizing code into logical units that mirror real-world entities."
+  },
+  {
+    "question": "Describe a time when you had to learn a new technology quickly.",
+    "difficulty": "Medium",
+    "topic": "Behavioral",
+    "sample_answer": "When my project required implementing real-time features, I had to learn WebSockets and Socket.io within a week. I started with official documentation, built small prototypes, and gradually integrated the technology into our main application. By the end of the sprint, I had successfully implemented a live chat feature that improved user engagement by 40%."
+  },
+  {
+    "question": "How would you handle a project that is behind schedule?",
+    "difficulty": "Medium",
+    "topic": "General",
+    "sample_answer": "I'd first assess the root causes of the delay, then communicate transparently with stakeholders about the situation. I'd prioritize remaining tasks using the MoSCoW method, consider resource reallocation, and explore scope reduction for non-critical features. I'd also implement daily check-ins to track progress closely and adjust the plan as needed."
+  },
+  {
+    "question": "What is the difference between authentication and authorization?",
+    "difficulty": "Medium",
+    "topic": "Technical",
+    "sample_answer": "Authentication verifies who a user is, typically through credentials like passwords, tokens, or biometrics. Authorization determines what an authenticated user is allowed to do, defining permissions and access rights to resources. For example, logging into a system is authentication, while being able to access certain files or perform specific actions is authorization."
+  },
+  {
+    "question": "Design a scalable chat application.",
+    "difficulty": "Hard",
+    "topic": "System Design",
+    "sample_answer": "I'd design it with: 1) WebSocket servers for real-time communication, 2) Redis for pub/sub messaging and session management, 3) MongoDB for message storage with proper indexing, 4) CDN for media file delivery, 5) Load balancers for horizontal scaling, 6) Message queues for offline message delivery, and 7) End-to-end encryption for security. I'd implement presence indicators, read receipts, and message history pagination."
+  },
+  {
+    "id": "java_1",
+    "question": "What is OOP in Java?",
+    "answer": "OOP stands for Object-Oriented Programming. It is a programming paradigm based on classes and objects. The four main pillars are encapsulation, inheritance, polymorphism, and abstraction.",
+    "topic": "Java",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "java_2",
+    "question": "What is the difference between method overloading and overriding?",
+    "answer": "Method overloading means same method name with different parameters in the same class. Method overriding means a subclass provides a specific implementation of a method already defined in the parent class.",
+    "topic": "Java",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "python_1",
+    "question": "What are Python decorators?",
+    "answer": "Decorators are functions that modify the behavior of another function or method without changing its source code directly.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "dbms_1",
+    "question": "What is normalization in DBMS?",
+    "answer": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity.",
+    "topic": "DBMS",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "os_1",
+    "question": "What is a deadlock in operating systems?",
+    "answer": "A deadlock is a condition where two or more processes are unable to proceed because each is waiting for a resource held by another.",
+    "topic": "OS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aptitude_1",
+    "question": "How do you solve percentage problems quickly?",
+    "answer": "Convert the percentage into fractions or decimals, identify the base value, and apply shortcut calculations wherever possible.",
+    "topic": "Aptitude",
+    "difficulty": "Easy"
+  }
+]

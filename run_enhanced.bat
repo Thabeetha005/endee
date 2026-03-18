@@ -1,0 +1,6 @@
+@echo off
+echo Activating virtual environment...
+call venv\Scripts\activate.bat
+echo Starting Enhanced AI Interview Bot...
+streamlit run enhanced_app_fixed.py --server.port 8513
+pause
